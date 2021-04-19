@@ -6,3 +6,7 @@ $font-family-serif: "Georgia", "Times New Roman", serif;
 $uoc-corporate: #000078;
 $uoc-masterbrand: #73edff;
 $uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+
+$theme-colors: (
+ "primary": #bada55 // posa-hi el codi de color que prefereixis
+);
