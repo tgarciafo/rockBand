@@ -8,4 +8,13 @@ $color-font: #000;
 $uoc-masterbrand: #73edff;
 $uoc-bg: color.scale($uoc-masterbrand, $lightness: 95%);
 
+$navbar-light-color: rgba(black, .55);
+$navbar-light-hover-color: rgba(black, .7);
+$navbar-light-active-color: rgba(black, .9);
+$navbar-light-disabled-color: rgba(black, .3);
+$navbar-light-toggler-border-color: rgba(black, .1);
 
+$theme-colors: (
+    "light":  #DAF7A6,
+    "dark": black 
+);
