@@ -1,3 +1,14 @@
 .banda{
     padding: 30px;
 }
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.card{
+    margin: 20px;
+}
+
