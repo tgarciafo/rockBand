@@ -8,8 +8,17 @@
 }
 
 .news img{
-    display: inline-block;
     max-width: 100%;
     height: auto;
     
+}
+
+.badge a{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+}
+
+.badge a:hover{
+    color: red;
 }
