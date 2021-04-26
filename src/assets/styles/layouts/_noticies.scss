@@ -1,9 +1,6 @@
-
-
 .news h1{
     text-align: center;
-    padding-bottom: 30px;
-    padding: 30px;
+    font-size: 35px;
 }
 
 .news img{
@@ -15,7 +12,7 @@
 }
 
 .news p{
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 .badge a{
@@ -29,9 +26,24 @@
 }
 
 .concerts{
-    padding: 30px;
+    padding: 25px 5px;
 }
 
 .data{
 font-weight: 600;
+}
+
+.noticies{
+    padding: 25px 5px;
+}
+
+@media (min-width:1000px) {
+
+    .news h1{
+font-size: 55px;
+    }
+
+    .concerts{
+        padding: 50px;
+    }
 }
