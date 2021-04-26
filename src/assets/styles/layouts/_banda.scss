@@ -14,7 +14,16 @@
 
 .banda h1{
     text-align: center;
-    padding: 35px;
-    font-size: 55px;
+    padding: 20px;
+    font-size: 35px;
+}
+
+@media (min-width:1000px) {
+
+    .banda h1{
+        padding: 35px;
+        font-size: 55px;
+    }
+
 }
 
