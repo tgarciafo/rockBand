@@ -1,10 +1,11 @@
-.contacte{
-    margin: 50px;
+.formulariC{
+    margin: 10px;
 }
 
 .contacte h1{
     text-align: center;
     margin: 30px;
+    font-size: 35px;
 }
 
 .but-contact{
@@ -22,12 +23,41 @@
   }
 
   .dadesC{
-      margin: 25px;
+      margin: 15px;
   }
 
   .dadesC i{
       padding-right: 10px;
   }
 
+  .dadesC h2{
+      padding: 15px;
+  }
+
+  .dadesC .card{
+    margin: 0 auto;
+    width: 25rem;
+
+}
+
+  @media (min-width:1000px) {
+
+    .contacte{
+        margin: 50px;
+    }
+
+    .dadesC{
+        margin: 25px;
+    }
+
+    .dadesC .card{
+        margin-left: 15px;        
+    }
+
+    .contacte h1{
+        font-size: 55px;
+    }
+
+  }
 
 
