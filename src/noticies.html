@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
   <head>
     <meta charset="utf-8">
@@ -12,7 +11,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="assets/images/logoLPmenu.png" alt="" width="90" height="85"></a>
+          <a class="navbar-brand" href="index.html"><img src="assets/images/logoLPmenu.png" alt="Logo de Les Panteres" width="90" height="85"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,8 +36,9 @@
     </header>
     <main>
       <div class="news">
-        <img src="assets/images/concert.jpg" alt="Concert de Les Panteres">
-
+      <img class="concert"
+        srcset="assets/images/concertM.jpg 450w, assets/images/concertT.jpg 800w, assets/images/concertD.jpg 1200w"
+        sizes="(min-width: 1200px) 1200px, (min-width: 800px) 800px, 450px" src="assets/images/concertM.jpg" alt="Concert amb molt públic de Les Panteres">
         <section class="noticies">
         <h1>Últimes notícies de <span>Les Panteres</span></h1>
         <div class="container">
@@ -105,18 +105,16 @@
           </div>
         </div>
       </section>
-        <img src="assets/images/concert2.jpg" alt="Públic amb les mans enlaire en un concert">
-
-
-
-      
+      <img class="concert"
+        srcset="assets/images/concertMansM.jpg 450w, assets/images/concertMansT.jpg 800w, assets/images/concertMansD.jpg 1200w"
+        sizes="(min-width: 1200px) 1200px, (min-width: 800px) 800px, 450px" src="assets/images/concertMansM.jpg" alt="Públic amb les mans enlaire en un concert">
     </div>
     </main>
     <footer>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="assets/images/logoLPmenu.png" width="55" height="50" alt="">
+          <img src="assets/images/logoLPmenu.png" width="55" height="50" alt="Logo de Les Panteres">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
