@@ -52,6 +52,8 @@ p{
   .but-news{
     grid-column: 6/7;
     grid-row: 4/5;
+    border: 1px solid white;
+    margin: 10px 0;
   }
 
   .text{
@@ -66,7 +68,8 @@ p{
     font-size: 1.5em;
     font-weight: 600;
     text-decoration: none;
-    padding-left: 15px;
+    padding: 15px;
+    align-self: end;
   }
 
   .but-play:hover {
@@ -78,6 +81,7 @@ p{
     grid-row: 3/4;
     align-self: end;
     margin: 0 10px;
+    border: 1px solid white;
   }
 
   .but-news a{
@@ -90,8 +94,12 @@ p{
   }
 
   .but-link a{
-    color: #fc1b35;
+    color: white;
     text-decoration: none;
+  }
+
+  .but-link:hover a{
+    color: #fc1b35;
   }
 
   hr:not([size]){
