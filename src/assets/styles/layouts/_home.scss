@@ -11,11 +11,6 @@
   margin-bottom: 20px;
 }
 
-.btn-dark:hover{
-  background-color: rgb(211, 204, 204);
-  color: black;
-}
-
 .text{
   padding: 20px;
 }
@@ -61,7 +56,6 @@ object-fit: cover;
 .but-news{
   grid-column: 2/3;
   grid-row: 3/4;
-  border: 1px solid white;
   margin-top: 10px;
 }
 
@@ -78,17 +72,12 @@ hr{
  .but-link{
   grid-column: 2/3;
   grid-row: 5/6;
-  border: 1px solid white;
   margin-top: 10px;
 }
 
 .but-news a{
   color: white;
   text-decoration: none;
-}
-
-.but-news:hover a{
-  color: #fc1b35;
 }
 
 .but-link a{
