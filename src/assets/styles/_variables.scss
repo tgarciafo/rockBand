@@ -1,7 +1,8 @@
-@use "sass:color";
+@use 'sass:color';
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
+$font-family-sans-serif: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue',
+  arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$font-family-serif: 'Georgia', 'Times New Roman', serif;
 $rock: 'New Rocker', cursive;
 
 $color-font: #000;
@@ -15,6 +16,6 @@ $navbar-light-disabled-color: rgba(black, .3);
 $navbar-light-toggler-border-color: rgba(black, .1);
 
 $theme-colors: (
-    "light":  #DAF7A6,
-    "dark": black
+  'light':#daf7a6,
+  'dark':black
 );

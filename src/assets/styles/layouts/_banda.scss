@@ -1,31 +1,26 @@
-.container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-.card{
-    margin: 20px;
+.card {
+  margin: 20px;
 }
 
-.banda h1{
-    text-align: center;
-    font-size: 35px;
-    padding-top: 25px;
-
+.banda h1 {
+  padding-top: 25px;
+  font-size: 35px;
+  text-align: center;
 }
 
-.banda .card{
-    width: 20rem;
+.banda .card {
+  width: 20rem;
 }
 
-@media (min-width:1000px) {
-
-    .banda h1{
-        font-size: 55px;
-        padding-top: 30px;
-
-    }
-
+@media (min-width: 1000px) {
+  .banda h1 {
+    padding-top: 30px;
+    font-size: 55px;
+  }
 }
-

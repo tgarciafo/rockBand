@@ -1,49 +1,48 @@
-.news h1{
-    text-align: center;
-    font-size: 35px;
+.news h1 {
+  font-size: 35px;
+  text-align: center;
 }
 
-.news img{
-    max-width: 100%;
-    height: auto; 
-    display: block;
+.news img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-right: auto;
   margin-left: auto;
-  margin-right: auto;  
 }
 
-.news p{
-    padding: 0 15px;
+.news p {
+  padding: 0 15px;
 }
 
-.badge a{
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    text-decoration: none;
+.badge a {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-decoration: none;
 }
 
-.badge a:hover{
-    color: red;
+.badge a:hover {
+  color: red;
 }
 
-.concerts{
-    padding: 25px 5px;
+.concerts {
+  padding: 25px 5px;
 }
 
-.data{
-font-weight: 600;
+.data {
+  font-weight: 600;
 }
 
-.noticies{
-    padding: 25px 5px;
+.noticies {
+  padding: 25px 5px;
 }
 
-@media (min-width:1000px) {
+@media (min-width: 1000px) {
+  .news h1 {
+    font-size: 55px;
+  }
 
-    .news h1{
-font-size: 55px;
-    }
-
-    .concerts{
-        padding: 50px;
-    }
+  .concerts {
+    padding: 50px;
+  }
 }

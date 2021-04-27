@@ -1,58 +1,53 @@
-.formulariC{
-    margin: 10px;
+.formulariC {
+  margin: 10px;
 }
 
-.contacte h1{
-    text-align: center;
-    margin: 30px;
-    font-size: 35px;
+.contacte h1 {
+  margin: 30px;
+  font-size: 35px;
+  text-align: center;
 }
 
-.but-contact{
-    margin-bottom: 5px;
+.but-contact {
+  margin-bottom: 5px;
 }
 
-.contacte label{
-    padding-bottom: 7px;
-    font-size: 20px;
+.contacte label {
+  padding-bottom: 7px;
+  font-size: 20px;
 }
 
-  .dadesC{
-      margin: 15px;
+.dadesC {
+  margin: 15px;
+}
+
+.dadesC i {
+  padding-right: 10px;
+}
+
+.dadesC h2 {
+  padding: 15px;
+}
+
+.dadesC .card {
+  width: 25rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 1000px) {
+  .contacte {
+    margin: 50px;
   }
 
-  .dadesC i{
-      padding-right: 10px;
+  .dadesC {
+    margin: 25px;
   }
 
-  .dadesC h2{
-      padding: 15px;
+  .dadesC .card {
+    margin-left: 15px;
   }
 
-  .dadesC .card{
-    margin: 0 auto;
-    width: 25rem;
-
+  .contacte h1 {
+    font-size: 55px;
+  }
 }
-
-  @media (min-width:1000px) {
-
-    .contacte{
-        margin: 50px;
-    }
-
-    .dadesC{
-        margin: 25px;
-    }
-
-    .dadesC .card{
-        margin-left: 15px;        
-    }
-
-    .contacte h1{
-        font-size: 55px;
-    }
-
-  }
-
-
