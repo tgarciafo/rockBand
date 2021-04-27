@@ -28,10 +28,10 @@
   font-weight: 600;
   color: $white;
   text-decoration: none;
-}
 
-.but-play:hover {
-  color: $red;
+  &:hover {
+    color: $red;
+  }
 }
 
 .but-news {
@@ -52,10 +52,10 @@
 .but-link a {
   color: $white;
   text-decoration: none;
-}
 
-.but-link:hover a {
-  color: $red;
+  &:hover a {
+    color: $red;
+  }
 }
 
 /* Fi estils buttons */
@@ -186,12 +186,12 @@ hr {
       margin: 10px;
       grid-column: 1/3;
       grid-row: 3/4;
-    }
 
-    hr:not([size]) {
-      height: 5px;
-      color: $green;
-      opacity: 1;
+      &:not([size]) {
+        height: 5px;
+        color: $green;
+        opacity: 1;
+      }
     }
   }
 }
