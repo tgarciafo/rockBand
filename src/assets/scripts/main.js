@@ -11,8 +11,3 @@
 /**
  * Write any other JavaScript below
  */
-
-+( function() {
-  const university = "UOC";
-  console.log(`Hello, ${university}!`);
-} )();
