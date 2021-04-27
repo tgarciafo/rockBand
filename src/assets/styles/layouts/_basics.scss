@@ -17,11 +17,11 @@ p {
 
 .btn-dark {
   border: 1px solid $white;
-}
 
-.btn-dark:hover {
-  color: $red;
-  background-color: $gray;
+  &:hover {
+    color: $red;
+    background-color: $gray;
+  }
 }
 
 @media (min-width: 1100px) {
