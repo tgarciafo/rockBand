@@ -1,22 +1,12 @@
-.contacte h1 {
-  margin: 30px;
-  font-size: 35px;
-  text-align: center;
-}
-
-@media (min-width: 1000px) {
-  .contacte {
-    margin: 50px;
-  }
-
-  .contacte h1 {
-    font-size: 55px;
-  }
-}
-
 /* Estils formulari */
 .formulariC {
   margin: 10px;
+}
+
+.formulariC h1 {
+  margin: 30px;
+  font-size: 35px;
+  text-align: center;
 }
 
 .formulariC label {
@@ -59,3 +49,13 @@
 }
 
 /* Fi estils mètodes de contacte */
+
+@media (min-width: 1000px) {
+  .contacte {
+    margin: 50px;
+  }
+
+  .formulariC h1 {
+    font-size: 55px;
+  }
+}
