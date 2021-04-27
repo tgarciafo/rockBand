@@ -17,12 +17,12 @@
 
 .badge a {
   font-family: 'Courier New', Courier, monospace;
-  color: white;
+  color: $white;
   text-decoration: none;
 }
 
 .badge a:hover {
-  color: red;
+  color: $red;
 }
 
 .concerts {

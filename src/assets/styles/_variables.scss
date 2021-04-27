@@ -5,15 +5,13 @@ $font-family-sans-serif: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, 
 $font-family-serif: 'Georgia', 'Times New Roman', serif;
 $rock: 'New Rocker', cursive;
 
-$color-font: #000;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 95%);
-
-$navbar-light-color: rgba(black, .55);
-$navbar-light-hover-color: rgba(black, .7);
-$navbar-light-active-color: rgba(black, .9);
-$navbar-light-disabled-color: rgba(black, .3);
-$navbar-light-toggler-border-color: rgba(black, .1);
+$black: #000;
+$white: #fff;
+$green: #daf7a6;
+$red: #fc1b35;
+$orange: #fc751a;
+$gray: #d3cccc;
+$uoc-bg: color.scale($orange, $lightness: 25%);
 
 $theme-colors: (
   'light':#daf7a6,
