@@ -1,28 +1,38 @@
-.formulariC {
-  margin: 10px;
-}
-
 .contacte h1 {
   margin: 30px;
   font-size: 35px;
   text-align: center;
 }
 
-.but-contact {
-  margin-bottom: 5px;
+@media (min-width: 1000px) {
+  .contacte {
+    margin: 50px;
+  }
+
+  .contacte h1 {
+    font-size: 55px;
+  }
 }
 
-.contacte label {
+/* Estils formulari */
+.formulariC {
+  margin: 10px;
+}
+
+.formulariC label {
   padding-bottom: 7px;
   font-size: 20px;
 }
 
-.dadesC {
-  margin: 15px;
+.but-contact {
+  margin-bottom: 5px;
 }
 
-.dadesC i {
-  padding-right: 10px;
+/* Fi estils formulari */
+
+/* Estils mètodes de contacte */
+.dadesC {
+  margin: 15px;
 }
 
 .dadesC h2 {
@@ -34,11 +44,11 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1000px) {
-  .contacte {
-    margin: 50px;
-  }
+.dadesC i {
+  padding-right: 10px;
+}
 
+@media (min-width: 1000px) {
   .dadesC {
     margin: 25px;
   }
@@ -46,8 +56,6 @@
   .dadesC .card {
     margin-left: 15px;
   }
-
-  .contacte h1 {
-    font-size: 55px;
-  }
 }
+
+/* Fi estils mètodes de contacte */
