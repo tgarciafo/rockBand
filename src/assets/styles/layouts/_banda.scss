@@ -4,23 +4,10 @@
   justify-content: space-around;
 }
 
-.banda h1 {
-  padding-top: 25px;
-  font-size: 35px;
-  text-align: center;
-}
-
 .card {
   margin: 20px;
 }
 
 .banda .card {
   width: 20rem;
-}
-
-@media (min-width: 1000px) {
-  .banda h1 {
-    padding-top: 30px;
-    font-size: 55px;
-  }
 }
