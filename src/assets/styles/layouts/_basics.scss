@@ -17,11 +17,6 @@ p {
 
 .btn-dark {
   border: 1px solid $white;
-
-  &:hover {
-    color: $red;
-    background-color: $gray;
-  }
 }
 
 @media (min-width: 1000px) {
@@ -33,5 +28,10 @@ p {
     padding-right: 25px;
     padding-left: 25px;
     font-size: 1.25em;
+  }
+
+  .btn-dark:hover {
+    color: $red;
+    background-color: $gray;
   }
 }

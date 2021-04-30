@@ -28,10 +28,6 @@
   font-weight: 600;
   color: $white;
   text-decoration: none;
-
-  &:hover {
-    color: $red;
-  }
 }
 
 .but-news {
@@ -129,6 +125,10 @@ hr {
   .but-link {
     align-self: end;
     margin: 0 10px;
+  }
+
+  .but-play:hover {
+    color: $red;
   }
 
   /* Fi estils buttons */

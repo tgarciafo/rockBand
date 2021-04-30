@@ -39,10 +39,6 @@
   font-family: 'Courier New', Courier, monospace;
   color: $white;
   text-decoration: none;
-
-  &:hover {
-    color: $red;
-  }
 }
 
 /* Fi estils concerts */
@@ -54,5 +50,9 @@
 
   .concerts {
     padding: 50px;
+  }
+
+  .badge a:hover {
+    color: $red;
   }
 }
